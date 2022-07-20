@@ -1,0 +1,57 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header css start */
+.container{
+    width: 1321px;
+    height: 646px;
+    margin: 50px auto;
+    background: #161616;
+    border-radius: 30px;
+}
+.header-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.header-info{
+    width: 531px;
+    height: 424px;
+    color: #FFFFFF;
+    padding: 111px 0 111px 106px;  
+}
+.header-info h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0;
+}
+.header-img img{
+    Width: 581px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 79px;
+}
+button{
+    background-color: red; 
+    width: 150px;
+    height: 50px;
+    padding: 5px; 
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;   
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+button a, i{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* header css end */
