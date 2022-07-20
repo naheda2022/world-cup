@@ -34,7 +34,7 @@ body{
     padding-top: 33px;
     padding-right: 79px;
 }
-button{
+.live-button{
     background-color: red; 
     width: 150px;
     height: 50px;
@@ -50,8 +50,46 @@ button{
     50%  {background-color: blue;}
     100% {background-color: green;}
   }
-button a, i{
+  .live-button a, i{
     text-decoration: none;
     color: #FFFFFF;
 }
 /* header css end */
+
+/* main part css start */
+
+.match{
+    Width: 312px;
+    Height: 312px;
+    background-color: #161616;
+}
+.cricket-match{
+    display: flex;
+    width: 1321px;
+    margin: 60px auto;
+}
+.blog button{
+    display: block;
+}
+.blogs{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.blog img{
+    width: 100%;
+}
+.match button{
+    display: block;
+    width: 200px;
+    padding: 10px;
+   
+}
+
+
+
+
+
+
+/* main part css end */
